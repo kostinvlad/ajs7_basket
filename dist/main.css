@@ -1,0 +1,39 @@
+body {
+  text-align: center;  
+}
+
+.popup {
+  position: absolute;
+  
+  display: none;  
+}
+
+table {
+  margin: 0 auto;
+}
+
+.show {
+  display: block;
+  margin-top: 106px;
+  margin-left: 276px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+#add {
+  display: none;
+}
+
+#apply {
+  display: none;
+}
+
+#outsideAdd {
+  margin: 0 auto;
+}

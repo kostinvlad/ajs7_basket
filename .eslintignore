@@ -1,0 +1,6 @@
+dist
+coverage
+docs
+src
+e2e
+.eslintrc.js
